@@ -11,7 +11,7 @@ Stylesheet marked up in style tags in index.html.<br>
 1. Make sure your project includes Bootstrap 3.3.7 and JQuery 3.2.1.
 2. Clone repo.
 3. Copy `<button>` in jumbotron and everything in between "Modal Start" and "Modal End" in your HTML 
-4. Copy everything inbetween "
+4. Copy everything in between "Style Sheet Start" and "Style Sheet End" to your CSS file.
 
 <strong> Reassign Trigger </strong> <br> 
 To change modal trigger add the follwing to a new HTML element
