@@ -20,21 +20,20 @@
 </head>
 <body>
 	<div class="container">
-	  <h2>Modal ReDesign</h2>
-	  <p> <a href="https://getbootstrap.com/docs/3.3/">Requires Bootstrap 3.3.7</a> and <a href="https://jquery.com/">JQuery</a></p>
-	  
-
-	  <!-- Trigger the modal with a button.
-		Change Trigger:
-	  	add data-toggle and data-target to different HTML button and delete button to change modal trigger  -->
-	  <button 
-	  	type="button" 
-	  	class="btn btn-info btn-lg" 
-	  	data-toggle="modal" 
-	  	data-target="#myModal">Open Modal</button>
-
-
-
+		<!--  -->
+		<div class="jumbotron" style="margin-top: 25px">
+		  <h1>Modal ReDesign</h1>
+		  <p> <a href="https://getbootstrap.com/docs/3.3/">Requires Bootstrap 3.3.7</a> and <a href="https://jquery.com/">JQuery</a></p>
+		
+		<!-- Trigger the modal with a button. Move to style sheet - or - see read me to reassign trigger  -->
+		<button 
+		  	type="button" 
+		  	class="btn btn-info btn-lg" 
+		  	data-toggle="modal" 
+		  	data-target="#myModal">Open Modal</button>
+		</div>
+		<!--  -->
+<!-- Move to HTML -->  
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -57,6 +56,7 @@
     </div>
   </div>
 </div>
+
 <!-- Move to style sheet  -->
 <style type="text/css">
 .modal-dialog {
