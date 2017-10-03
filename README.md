@@ -5,7 +5,13 @@
 
 Removed existing Bootstrap header and footer.<br>
 New header designed for image - close button overlays image.<br>
-Stylesheet marked up in style tags in index.html.
+Stylesheet marked up in style tags in index.html.<br>
+
+<strong> Suggested Instructions </strong><br>
+1. Make sure your project includes Bootstrap 3.3.7 and JQuery 3.2.1.
+2. Clone repo.
+3. Copy `<button>` in jumbotron and everything in between "Modal Start" and "Modal End" in your HTML 
+4. Copy everything inbetween "
 
 <strong> Reassign Trigger </strong> <br> 
 To change modal trigger add the follwing to a new HTML element
