@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MODAL TEMPLATE</title>
+	
+	<!-- JQuery 3.2.1 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Bootstrap v3.3.7 -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<!-- Animate -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	
+	<!-- Local stylesheet -->
+	<link rel="stylesheet" type="text/css" href="src/assets/css/style.css">
+
+</head>
+<body>
+	<div class="container">
+	  <h2>Modal ReDesign</h2>
+	  <p> <a href="https://getbootstrap.com/docs/3.3/">Requires Bootstrap 3.3.7</a> and <a href="https://jquery.com/">JQuery</a></p>
+	  <!-- Trigger the modal with a button -->
+	  <button 
+	  	type="button" 
+	  	class="btn btn-info btn-lg" 
+	  	data-toggle="modal" 
+	  	data-target="#myModal">Open Modal</button>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+        	<div class="modal-header">
+                <!--  close button -->
+                <button 
+                	type="button" 
+                	class="close close-button" 
+                	data-dismiss="modal">&times;
+                </button>
+                <!-- header image -->
+                <image itemprop="image" src="src/assets/img/img-placeholder.png">
+            </div>
+			<div class="modal-info">
+	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum laborum deleniti, a quasi recusandae facilis, fugit eaque id, incidunt quam quaerat consequatur? Sed necessitatibus quas eos aliquid iure qui, atque.</p>
+	        </div>
+      </div> 
+    </div>
+  </div>
+  
+</div>
+<!-- Move to style sheet  -->
+<style type="text/css">
+	.modal-dialog {
+	width: 500px;
+}
+.modal-content {
+	border-radius: 0;
+	border-color: none;
+}
+.modal-body {
+	padding: 0;
+}
+.close-button {
+	position: absolute;
+	right: 1%;
+    top: .25%;
+	width: 28px;
+	height: 28px;
+	font-size: 28px;
+	color: rgb(255,255,255);
+	text-shadow: 0 1px 0 rgb(0,0,0);
+	opacity: 1;
+	font-weight: 400;
+	margin-right: 5px;
+	margin-top: 2px;
+	outline: none;	
+}
+
+.close-button:active {
+	color: rgb(255,255,255);
+}
+.close-button:focus {
+	color: rgb(255,255,255);
+	opacity: 1;
+}
+.close-button:hover {
+	color: #1b586a;
+}
+.modal-header {
+	width: 100%;
+	height: auto;
+	padding: 0;
+}
+.modal-header img {
+	width: 100%;
+	height: auto;
+}
+
+.modal-info {
+	margin: 25px;
+}
+
+</style>
+
+
+
+<!-- Local JavaScript -->
+<script type="text/javascript" src="src/assets/js/script.js"></script>
+</body>
+</html>
